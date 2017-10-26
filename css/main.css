@@ -8,12 +8,67 @@ ul li:nth-child(2){
     font-family: 'Hammersmith One';
 } */
 
-.works .col-sm-2,
-.works .row{
+html{
+    font-size: 62.25%;
+}
+
+header{
+    background-image: url('../images/header_image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;    
+}
+
+header .overlay{
+    background-image: linear-gradient(to right, #09052f, #311d5e);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+}
+
+header .navbar-brand{
+    padding: 0;
+    margin: 0;
+
+    font-size: 3rem;
+    font-family: "Roboto";
+    font-weight: 100;
+    text-transform: none;
+}
+
+header .navbar-brand img{
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+}
+
+header .navbar-brand span{
+    background-image: linear-gradient(to right, #00e0d0, #4aa3cc); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 15px;
+    display: inline-block;
+}
+
+header .navbar-inverse{
+    background-color: transparent;
+    border: none;    
+
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+#works .col-sm-2,
+#works .row{
     margin:0; 
     padding: 0;
 }
 
-.contact img{
+#contact img{
     display: block;
 }
