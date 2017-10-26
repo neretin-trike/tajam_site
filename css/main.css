@@ -57,10 +57,19 @@ header .navbar-brand span{
 header .navbar-inverse{
     background-color: transparent;
     border: none;    
+    padding: 15px 0;
+}
 
+header .navbar-inverse #myNavbar a{
     text-transform: uppercase;
     font-family: "Roboto";
     font-weight: 700;
+    font-size: 1.3rem;
+    color: white;
+}
+
+header .navbar-inverse #myNavbar a.select{
+    color: #00e0d0;
 }
 
 #works .col-sm-2,
