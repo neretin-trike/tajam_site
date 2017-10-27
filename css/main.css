@@ -25,6 +25,17 @@ html{
     border-radius: 0.25rem;
 }
 
+h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    letter-spacing: 0.11rem;
+    color: #413d4b;
+    margin-top: 7rem;
+    margin-bottom: 0;
+}
+
 /*--------------------------
     HEADER
 ---------------------------*/
@@ -153,6 +164,34 @@ header .slide ul a.select{
     border: none;
     background-color: #00e0d0;
 }
+
+/*--------------------------
+    ABOUT
+---------------------------*/
+
+#about img{
+    margin-top: 7rem;
+}
+
+#about p{
+    font-family: 'Roboto';
+    color: #413d4b;
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing: 0.042rem;
+    line-height: 2.2rem;
+    margin-top: 3rem;
+}
+
+#about button{
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+
+}
+
+/*--------------------------
+    EXPRETISE
+---------------------------*/
 
 #works .col-sm-2,
 #works .row{
