@@ -25,6 +25,10 @@ html{
     border-radius: 0.25rem;
 }
 
+/*--------------------------
+    HEADER
+---------------------------*/
+
 header{
     background-image: url('../images/header_image.jpg');
     background-size: cover;
@@ -92,6 +96,8 @@ header h1{
     font-weight: 900;
     font-size: 3.2rem;
     letter-spacing: 0.032rem;
+
+    margin-top: 18rem;
 }
 
 header h1:after{
@@ -100,6 +106,9 @@ header h1:after{
     margin:0 auto;
     width: 5rem;
     height: 0.1rem;
+    margin-top:2.4rem;
+    margin-bottom:2.4rem;
+    
     background-color: #00e0d0;
 }    
 
@@ -113,15 +122,23 @@ header p{
 }
 
 header .slide{
-    padding: 0;
+    margin-top: 5rem;
 }
 
-header .slide li{
+header .slide ul{
+    padding: 0;
+    margin-top: 12.5rem;
+    margin-bottom: 7rem;
+}
+
+header .slide ul li{
     color:white;
     display: inline-block;
+    margin-left: .25rem;
+    margin-right: .25rem;
 }
 
-header .slide a{
+header .slide ul a{
     display: block;
     border-radius: 4.5rem;
     width: 1rem;
@@ -132,7 +149,7 @@ header .slide a{
     cursor: pointer;
 }    
 
-header .slide a.select{
+header .slide ul a.select{
     border: none;
     background-color: #00e0d0;
 }
