@@ -216,6 +216,71 @@ header .slide ul a.select{
     EXPRETISE
 ---------------------------*/
 
+#expertise .row:first-child,
+#expertise .row:last-child{
+    margin-bottom: 5rem;
+}
+
+#expertise .row .col-sm-4{
+    padding: 0;
+}
+
+#expertise .row .col-sm-4:nth-child(2){
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+}
+
+#expertise .row:last-child .col-sm-4{
+    border-top: 1px solid #ebebeb;
+}
+
+#expertise h2{
+    margin-bottom:1.5rem;
+}    
+
+#expertise h2 + p:after{
+    content: "";
+    display: block;
+    margin:0 auto;
+    width: 5rem;
+    height: 0.1rem;
+    margin-top:1.5rem;
+    
+    background-color: #c6c4c9;
+}   
+
+#expertise h2 + p{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0.105rem;
+    color: #413d4b;
+}
+
+#expertise figure{
+    padding: 4rem 4.5rem;
+    margin: 0;
+}
+
+#expertise figure h3{
+    margin-top: 3rem;
+    font-family: 'Roboto';
+    font-weight: 900;    
+    letter-spacing: 0.07rem;
+    font-size: 1.4rem;
+    color: #413d4b;
+}
+
+#expertise figure p{
+    margin-top: 2.5rem;
+    font-family: 'Roboto';
+    font-weight: 300;    
+    color: #413d4b;
+    line-height: 2.2rem;
+    color: #413d4b;
+    letter-spacing: 0.07rem;
+}    
+
 #works .col-sm-2,
 #works .row{
     margin:0; 
