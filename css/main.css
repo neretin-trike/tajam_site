@@ -401,6 +401,80 @@ header .slide ul a.select{
     margin-bottom: 7rem;
 }
 
+/*--------------------------
+    TESTIMONIALS
+---------------------------*/
+
+#testimonials{
+    background-image: url('../images/testimonials_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    color: white;
+}
+
+#testimonials h3{
+    font-size: 10rem;
+    margin-top: 0;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+}    
+
+#testimonials p{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.04rem;
+
+    padding: 0 8.5rem;
+    margin-bottom: 5rem;
+}    
+
+#testimonials h4{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+
+    margin-bottom: 1rem;
+}    
+
+#testimonials h4 + p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+} 
+
+#testimonials img{
+    margin: 0 0.7rem;
+}
+
+#testimonials a{
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    line-height: 1;
+    vertical-align: -20%;
+}
+
+#testimonials a:hover{
+    text-decoration: none;
+}
+
+/*--------------------------
+    CONTACT
+---------------------------*/
+
 #contact img{
     display: block;
 }
