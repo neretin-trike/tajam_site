@@ -25,6 +25,16 @@ html{
     border-radius: 0.25rem;
 }
 
+.overlay{
+    background-image: linear-gradient(to right, #09052f, #311d5e);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+}
+
 h2{
     font-family: 'Playfair Display';
     font-weight: 700;
@@ -46,16 +56,6 @@ header{
     background-repeat: no-repeat;
     height: 100%;
     position: relative;    
-}
-
-header .overlay{
-    background-image: linear-gradient(to right, #09052f, #311d5e);
-    position: absolute;
-    width: 100%;
-    height: inherit;
-    top: 0;
-    left: 0;
-    opacity: 0.85;
 }
 
 header .navbar-brand{
@@ -188,6 +188,29 @@ header .slide ul a.select{
     margin-bottom: 7rem;
 
 }
+
+.video{
+    background-image: url('../images/video_content_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+#about .video img,
+#about .video p{
+    margin: 0;
+    font-family: 'Hammersmith One';
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 0.008rem;
+    margin-top: 3.5rem;
+}
+
 
 /*--------------------------
     EXPRETISE
