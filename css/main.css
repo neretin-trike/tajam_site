@@ -59,7 +59,8 @@ header{
     position: relative;    
 }
 
-header .navbar-brand{
+header .navbar-brand,
+footer .navbar-brand{    
     padding: 0;
     margin: 0;
 
@@ -69,13 +70,15 @@ header .navbar-brand{
     text-transform: none;
 }
 
-header .navbar-brand img{
+header .navbar-brand img,
+footer .navbar-brand img{    
     display: inline-block;
     height: 5rem;
     width: 5rem;
 }
 
-header .navbar-brand span{
+header .navbar-brand span,
+footer .navbar-brand span{
     background-image: linear-gradient(to right, #00e0d0, #4aa3cc); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -507,4 +510,155 @@ header .slide ul a.select{
 #contact img{
     display: block;
     margin-top: 5rem;
+}
+
+/*--------------------------
+    FOOTER
+---------------------------*/
+
+footer{
+    background-image: url('../images/footer_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    color: white;
+}
+
+footer .first a.block{
+    float: none;
+}
+
+footer .first p{
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing: 0.07rem;
+    line-height: 2.6rem;
+
+    margin-top: 2.5rem;
+}
+
+footer .first .horizon-nav{
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+
+    margin-top: 7rem;
+}
+footer .first .horizon-nav:after{
+    width: 100%;
+    display: inline-block;
+    content: "";
+}
+
+footer .first .horizon-nav li{
+    display: inline-block;
+}
+    
+footer .first .horizon-nav li a{
+    text-transform: uppercase;
+    color: white;
+    /* margin-left: 1.6rem; */
+}    
+
+footer .first .horizon-nav li a:hover{
+    text-decoration: none;
+}
+
+footer .second p{
+    margin-top: 3rem;
+
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing: 0.07rem;
+    line-height: 2.6rem;
+
+    background-repeat: no-repeat;
+    background-position-y: 0.3rem;
+    padding-left: 3rem;
+}
+
+footer .second p:first-of-type{
+    background-image: url('../images/location.png');
+}
+
+footer .second p:last-of-type{
+    background-image: url('../images/phone.png');
+}
+
+footer .the-third form input{
+
+
+    float: left;
+
+    outline: none;
+
+    border:0.1rem solid rgba(255,255,255,0.5);
+    resize: none;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing: 0.07rem;
+
+    padding: 1.5rem 1.5rem;
+
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+
+    color: white;
+    background-color: transparent;
+}
+
+footer .the-third form [type="text"]{
+    width: 70%;
+}
+
+footer .the-third form [type="submit"]{
+    width: 26%;
+    margin-left: 4%;
+    
+    background-color: rgba(255,255,255,0.45);
+    background-image: url('../images/paper.png');
+    background-size: 35%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    border: none;
+    height: 5.2rem;
+
+    padding: 0;
+}    
+    
+footer .the-third form input::placeholder{
+    color: #bcbbbe;
+}
+
+footer .the-third figure{
+    clear: both;
+}
+
+footer .the-third figure img:not(:first-child){
+    margin-left: .7rem;
+}
+
+footer .the-third P{
+    margin-top: 6rem;
+}
+
+
+footer h3{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 0.075rem;
+    line-height: 2.6rem;
 }
