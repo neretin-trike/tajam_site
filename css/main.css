@@ -507,6 +507,10 @@ header .slide ul a.select{
     color: #bcbbbe;
 }
 
+#contact .col-sm-5 .row{
+    margin-bottom: 7rem;
+}
+
 #contact img{
     display: block;
     margin-top: 5rem;
@@ -594,7 +598,6 @@ footer .second p:last-of-type{
 }
 
 footer .the-third form input{
-
 
     float: left;
 
